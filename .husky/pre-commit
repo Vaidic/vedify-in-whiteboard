@@ -1,0 +1,6 @@
+#!/bin/sh
+# This script will run linting (replace with your linting command) before allowing a commit
+
+npm run format
+npm run lint:fix
+
