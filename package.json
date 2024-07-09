@@ -11,6 +11,11 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "framer-motion": "^11.2.14",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
@@ -19,15 +24,15 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint-config-next": "14.2.4",
-    "husky": "^9.0.11",
-    "prettier": "^3.3.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
+    "eslint-config-next": "14.2.4",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.2",
     "typescript": "^5"
   }
 }
