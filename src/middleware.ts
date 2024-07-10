@@ -1,4 +1,4 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkMiddleware } from '@clerk/nextjs/server';
 
 export default clerkMiddleware();
 
@@ -10,10 +10,9 @@ export default clerkMiddleware();
 // 2. "/" - Matches the root path.
 // 3. "/(api|trpc)(.*)" - Matches all paths starting with "api" or "trpc".
 
-// These patterns ensure that the middleware is applied to all pages except static files and Next.js internals, 
+// These patterns ensure that the middleware is applied to all pages except static files and Next.js internals,
 // and also specifically includes API and TRPC routes.
 
-
 export const config = {
-  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
+  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
 };

@@ -10,4 +10,4 @@ const config = {
 
 const appTheme = extendTheme({ config, fonts: fontConfig });
 
-export default appTheme
+export default appTheme;
