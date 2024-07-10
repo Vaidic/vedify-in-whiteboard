@@ -8,6 +8,6 @@ const config = {
   colorModeStorageKey: 'color-mode',
 };
 
-const todoAppTheme = extendTheme({ config, fonts: fontConfig });
+const appTheme = extendTheme({ config, fonts: fontConfig });
 
-export default todoAppTheme
+export default appTheme

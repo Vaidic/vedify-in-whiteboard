@@ -1,13 +1,13 @@
 'use client';
 import { ColorModeScript } from '@chakra-ui/react';
-import todoAppTheme from '@/lib/chakraui/theme';
+import appTheme from '@/lib/chakraui/theme';
 
 export function ChakraColorModeScript() {
   return (
     <ColorModeScript
-      initialColorMode={todoAppTheme.config.initialColorMode}
-      type={todoAppTheme.config.colorModeStorageType}
-      storageKey={todoAppTheme.config.colorModeStorageKey}
+      initialColorMode={appTheme.config.initialColorMode}
+      type={appTheme.config.colorModeStorageType}
+      storageKey={appTheme.config.colorModeStorageKey}
     />
   );
 }
