@@ -1,0 +1,16 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Square frame -->
+  <path d="M50,50 L150,50 L150,70 L70,70 L70,150 L50,150 Z" fill="#FF6347"/> <!-- Top-left, Orange -->
+  <path d="M150,50 L250,50 L250,150 L230,150 L230,70 L150,70 Z" fill="#90EE90"/> <!-- Top-right, Light green -->
+  <path d="M50,150 L70,150 L70,230 L150,230 L150,250 L50,250 Z" fill="#20B2AA"/> <!-- Bottom-left, Teal -->
+  <path d="M230,150 L250,150 L250,250 L150,250 L150,230 L230,230 Z" fill="#87CEFA"/> <!-- Bottom-right, Light blue -->
+  
+  <!-- "V" in the center -->
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFD700" text-anchor="middle">V</text>
+  
+  <!-- "Vedify.In" text -->
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FFD700" text-anchor="middle">Vedify.In</text>
+  
+  <!-- Tagline -->
+  <text x="150" y="320" font-family="Arial, sans-serif" font-size="18" fill="#FF6347" text-anchor="middle">Ved-ify-ing Universe</text>
+</svg>
