@@ -1,9 +1,6 @@
 
 npm run format
 npm run lint:fix
-
-
-
 # exit if there are un-staged changes
 if ! git diff --exit-code; then
   echo "There are un-staged changes. Aborting."
