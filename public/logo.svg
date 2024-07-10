@@ -1,4 +1,4 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="310" height="310" xmlns="http://www.w3.org/2000/svg">
   <!-- Square frame -->
   <path d="M50,50 L150,50 L150,70 L70,70 L70,150 L50,150 Z" fill="#FF6347"/> <!-- Top-left, Orange -->
   <path d="M150,50 L250,50 L250,150 L230,150 L230,70 L150,70 Z" fill="#90EE90"/> <!-- Top-right, Light green -->

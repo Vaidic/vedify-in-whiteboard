@@ -1,14 +1,12 @@
 export const Links = [
   {
     name: 'Apps Home',
-    link: 'https://www.vedify.in/apps',
-  },
-  {
-    name: 'Home',
-    link: 'https://www.vedify.in',
+    url: 'https://www.vedify.in/apps',
   },
   {
     name: 'About',
-    link: 'https://www.vedify.in/about',
+    url: 'https://www.vedify.in/about',
   },
 ];
+
+export const appName = process.env.APP_NAME || 'Vedify-ing Universe';
