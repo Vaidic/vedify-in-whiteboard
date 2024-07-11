@@ -1,12 +1,13 @@
 'use client';
 
-import { Button, useColorMode } from '@chakra-ui/react';
+import Whiteboard from '@/components/whiteboard';
+import { Box, useColorMode } from '@chakra-ui/react';
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <div>
-      <Button onClick={toggleColorMode}>Button</Button>
-    </div>
+    <Box>
+      <Whiteboard roomId={'123'} />
+    </Box>
   );
 }
